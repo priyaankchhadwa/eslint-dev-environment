@@ -1,0 +1,19 @@
+root = true
+
+[*]
+indent_size = 4
+indent_style = space
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[*.js]
+spaces_around_operators = true
+
+[*.py]
+max_line_length = 79
+
+[*.css]
+indent_size = 2
+indent_style = space
+curly_bracket_next_line = false:suggestion
